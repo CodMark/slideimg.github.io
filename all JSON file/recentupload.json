@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "link": "/pageloadmovie/avatar",
+      "imgs": "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_SX300.jpg",
+      "rating": "7.8/10"
+    },
+    {
+      "id": 2,
+      "link": "/pageloadmovie/avatar",
+      "imgs": "https://m.media-amazon.com/images/M/MV5BZjY2MmI1ZWItNmU0Yy00NTdkLWJiYmQtNzFlZWNlMzkxZTZjXkEyXkFqcGdeQXVyNjkwOTg4MTA@._V1_SX300.jpg",
+      "rating": "5.6/10"
+    },
+    {
+      "id": 3,
+      "link": "/pageloadmovie/avatar",
+      "imgs": "https://www.pinkvilla.com/imageresize/all_of_us_are_dead_main_1.jpg?width=752&format=webp&t=pvorg",
+      "rating": "7.5/10"
+    },
+    {
+      "id": 4,
+      "link": "/pageloadmovie/avatar",
+      "imgs": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
+      "rating": "8.4/10"
+    }
+]
