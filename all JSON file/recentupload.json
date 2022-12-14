@@ -18,27 +18,64 @@
         "rating": "7.5/10"
     },
     {
-        "title": "",
-        "link": "",
-        "imgs": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
-        "rating": "8.4/10"
+        "title": "The Avengers",
+        "link": "The Avengers",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "rating": "8.0/10"
     },
     {
-        "title": "",
-        "link": "",
-        "imgs": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
-        "rating": "8.4/10"
+        "title": "Captain American Civil War",
+        "link": "Captain American Civil War",
+        "imgs": "https://allmovieshub.site/wp-content/uploads/2019/04/captain-america-civil-war-in-hindi-download.jpg",
+        "rating": "7.8/10"
     },
     {
-        "title": "",
-        "link": "",
-        "imgs": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
-        "rating": "8.4/10"
+        "title": "Iron Man 3",
+        "link": "Iron Man 3",
+        "imgs": "https://upload.wikimedia.org/wikipedia/en/1/19/Iron_Man_3_poster.jpg",
+        "rating": "7.1/10"
     },
     {
-        "title": "",
-        "link": "",
-        "imgs": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
-        "rating": "8.4/10"
+        "title": "Thor Love and Thunder",
+        "link": "Thor Love and Thunder",
+        "imgs": "https://allmovieshub.site/wp-content/uploads/2022/09/Thor_Love_and_Thunder_Movie_Dual_Audio_Download_web-dl_480p_720p_1080p.jpeg",
+        "rating": "6.7/10"
+    },
+    
+    {
+        "title": "Spider-Man: No Way Home",
+        "link": "Spider-Man: No Way Home",
+        "imgs": "https://allmovieshub.info/wp-content/uploads/2021/12/Spider-Man-No-Way-Home-Dual-Audio-download-480p-720p.jpg",
+        "rating": "8.3/10"
+    },
+    {
+        "title": "Doctor Strange",
+        "link": "Doctor Strange",
+        "imgs": "https://allmovieshub.info/wp-content/uploads/2021/02/Doctor-Strange-Movie-Dual-Audio-download-480p-720p.jpg",
+        "rating": "7.5/10"
+    },
+    {
+        "title": "Fantastic Beasts and Where to Find Them",
+        "link": "Fantastic Beasts and Where to Find Them",
+        "imgs": "https://allmovieshub.info/wp-content/uploads/2021/05/Fantastic-Beasts-and-Where-to-Find-Them-Movie-Dual-Audio-downlaod-480p-720p.jpg",
+        "rating": "7.2/10"
+    },
+    {
+        "title": "Eternals",
+        "link": "Eternals",
+        "imgs": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/eternals_lob_crd_06.jpg",
+        "rating": "6.3/10"
+    },
+    {
+        "title": "Ant-Man",
+        "link": "Ant-Man",
+        "imgs": "https://allmovieshub.info/wp-content/uploads/2022/01/Ant-Man-movie-dual-audio-download-480p-720p-1080p.jpg",
+        "rating": "7.3/10"
+    },
+    {
+        "title": "THE-BOYS",
+        "link": "THE-BOYS",
+        "imgs": "https://allmovieshub.info/wp-content/uploads/2022/07/The_Boys_Season_3_in_Hindi_Dubbed_Download_480p_720p_1080p.jpeg",
+        "rating": "8.7/10"
     }
 ]
