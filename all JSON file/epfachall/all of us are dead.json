@@ -1,5 +1,6 @@
 [
     {
+        "centerrdf": "centerrdf",
         "title": "All of us are dead",
         "season": "1",
         "qulit": "480p",
@@ -55,6 +56,7 @@
 
 
     {
+        "centerrdf": "centerrdf",
         "title": "All of us are dead",
         "season": "1",
         "qulit": "720p",
@@ -109,6 +111,7 @@
 
 
     {
+        "centerrdf": "centerrdf",
         "title": "All of us are dead",
         "season": "1",
         "qulit": "1080p",
@@ -157,7 +160,6 @@
     },
     {
         "link": "Link >>",
-        "eps": "12",
-        "bottombor": "bottombor"
+        "eps": "12"
     }
 ]
