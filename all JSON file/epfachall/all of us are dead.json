@@ -60,6 +60,7 @@
     {
         "link": "Link >>",
         "eps": "12",
+        "centerrdf": "disnun",
         "bottombor": "bottombor"
     },
 
@@ -124,13 +125,16 @@
         "eps": "11"
     },
     {
+        "id": "720p",
         "link": "Link >>",
         "eps": "12",
+        "centerrdf": "disnun",
         "bottombor": "bottombor"
     },
 
 
     {
+        "id": "1080p",
         "centerrdf": "centerrdf",
         "title": "All of us are dead",
         "season": "Season 1",
