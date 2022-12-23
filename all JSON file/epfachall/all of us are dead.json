@@ -69,7 +69,8 @@
         "season": "1",
         "qulit": "480p",
         "link": "Link >>",
-        "eps": "12"
+        "eps": "12",
+        "bottombor": "bottombor"
     },
 
 
@@ -146,7 +147,8 @@
         "season": "1",
         "qulit": "720p",
         "link": "Link >>",
-        "eps": "12"
+        "eps": "12",
+        "bottombor": "bottombor"
     },
 
 
@@ -221,6 +223,7 @@
         "season": "1",
         "qulit": "1080p",
         "link": "Link >>",
-        "eps": "12"
+        "eps": "12",
+        "bottombor": "bottombor"
     }
 ]
