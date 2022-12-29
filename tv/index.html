@@ -128,7 +128,7 @@
 <body>
 
     <div class="center">
-        <video id="video" data-html5-video="" preload="metadata" controls autoplay poster="./logofull.png"></video>
+        <video id="video" data-html5-video="" preload="metadata" controls autoplay></video>
     </div>
 
     <input type="text" id="runtvurl" value="" style="display: none;">
@@ -155,9 +155,9 @@
                 alt=""><span>480p</span></button>
     </div>
 
-    <script src="http://hlsbook.net/wp-content/examples/hls.min.js"> </script>
-    <script src="./video.js"></script>
 </body>
+<script src="http://hlsbook.net/wp-content/examples/hls.min.js"> </script>
+<script src="./video.js"></script>
 <script>
     var myFP = fluidPlayer(
         'video', {
@@ -265,6 +265,7 @@
     }
 
     function runtv() {
+        if (Hls.isSupported()) {
             var video = document.getElementById("video");
             var runtv = document.getElementById('runtvurl').value;
             var hls = new Hls();
@@ -274,6 +275,7 @@
             hls.on(Hls.Events.MANIFEST_PARSED, function () {
                 video.play();
             })
+        }
     }
 </script>
 <!-- song -->
