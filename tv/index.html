@@ -265,7 +265,6 @@
     }
 
     function runtv() {
-        if (Hls) {
             var video = document.getElementById("video");
             var runtv = document.getElementById('runtvurl').value;
             var hls = new Hls();
@@ -275,7 +274,6 @@
             hls.on(Hls.Events.MANIFEST_PARSED, function () {
                 video.play();
             })
-        }
     }
 </script>
 <!-- song -->
