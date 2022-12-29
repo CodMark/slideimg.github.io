@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NXPRIME: TV</title>
+    <script src="http://hlsbook.net/wp-content/examples/hls.min.js"> </script>
 </head>
 
 <style>
@@ -156,7 +157,6 @@
     </div>
 
 </body>
-<script src="http://hlsbook.net/wp-content/examples/hls.min.js"> </script>
 <script src="./video.js"></script>
 <script>
     var myFP = fluidPlayer(
@@ -265,7 +265,7 @@
     }
 
     function runtv() {
-        if (Hls.isSupported()) {
+        if (Hls.isSupported) {
             var video = document.getElementById("video");
             var runtv = document.getElementById('runtvurl').value;
             var hls = new Hls();
