@@ -1,21 +1,48 @@
 [
     {
-        "title": "",
+        "title": [
+            "avatar 2",
+            "Avatar 2",
+            "Avatar the way of water",
+            "avatar the way of water"
+        ],
         "link": "",
         "imgs": "https://www.themoviedb.org/t/p/original/1hZTLWc0NKyGTbb2IyG0AFq60k7.jpg",
         "rating": "7.9/10"
     },
     {
-        "title": "",
+        "title": [
+            "Black Adam",
+            "black adam",
+            "Black Adam DC"
+        ],
         "link": "",
         "imgs": "https://www.theilluminerdi.com/wp-content/uploads/2022/09/black-adam-heroes.jpg",
         "rating": "6.6/10"
     },
     {
-        "title": "",
+        "title": [
+            "black panther 2",
+            "Black Panther 2",
+            "Black panther 2",
+            "Black Panther: Wakanda Forever",
+            "black panther: wakanda forever",
+            "Black Panther Wakanda Forever",
+            "black panther wakanda forever"
+        ],
         "link": "",
         "imgs": "https://images.thedirect.com/media/photos/FeJ0BJtWIAUecOG.jpg",
         "rating": "7.3/10"
+    },
+    {
+        "title": [
+            "Matchless Mulan",
+            "Matchless Mulan (2020)",
+            "matchless mulan"
+        ],
+        "link": "",
+        "imgs": "https://allmovieshub.quest/wp-content/uploads/2022/11/Matchless-Mulan-dual-audio-download-480p-720p-1080p.jpg",
+        "rating": "5.8/10"
     },
     {
         "title": [
