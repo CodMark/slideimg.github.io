@@ -1,6 +1,27 @@
 [
     {
-        "title": ["avatar", "Avatar"],
+        "title": "",
+        "link": "",
+        "imgs": "https://www.themoviedb.org/t/p/original/1hZTLWc0NKyGTbb2IyG0AFq60k7.jpg",
+        "rating": "7.9/10"
+    },
+    {
+        "title": "",
+        "link": "",
+        "imgs": "https://www.theilluminerdi.com/wp-content/uploads/2022/09/black-adam-heroes.jpg",
+        "rating": "6.6/10"
+    },
+    {
+        "title": "",
+        "link": "",
+        "imgs": "https://images.thedirect.com/media/photos/FeJ0BJtWIAUecOG.jpg",
+        "rating": "7.3/10"
+    },
+    {
+        "title": [
+            "avatar",
+            "Avatar"
+        ],
         "link": "avatar",
         "imgs": "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_SX300.jpg",
         "rating": "7.8/10"
@@ -41,7 +62,6 @@
         "imgs": "https://allmovieshub.site/wp-content/uploads/2022/09/Thor_Love_and_Thunder_Movie_Dual_Audio_Download_web-dl_480p_720p_1080p.jpeg",
         "rating": "6.7/10"
     },
-    
     {
         "title": "Spider-Man: No Way Home",
         "link": "Spider-Man: No Way Home",
