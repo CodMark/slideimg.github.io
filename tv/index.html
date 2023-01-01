@@ -68,7 +68,7 @@
         justify-content: center;
     }
 
-    #fluid_video_wrapper_video {
+    video {
         height: auto !important;
         width: 41rem !important;
         border-radius: 9px;
@@ -90,7 +90,7 @@
     }
 
     @media (max-width: 669px) {
-        #fluid_video_wrapper_video {
+        video {
             height: auto !important;
             width: 100% !important;
         }
@@ -128,7 +128,8 @@
 <body>
 
     <div class="center">
-        <video id="video" data-html5-video="" preload="metadata" controls autoplay></video>
+        <!-- <video id="video" data-html5-video="" preload="metadata" controls autoplay></video> -->
+        <audio id="video"></audio>
     </div>
 
     <input type="text" id="runtvurl" value="" style="display: none;">
@@ -157,38 +158,7 @@
 
 </body>
 <script src="./hls.min.js"> </script>
-<script src="./video.js"></script>
-<script>
-    var myFP = fluidPlayer(
-        'video', {
-        "layoutControls": {
-            "controlBar": {
-                "autoHideTimeout": 3,
-                "animated": true,
-                "autoHide": true
-            },
-            "htmlOnPauseBlock": {
-                "html": null,
-                "height": null,
-                "width": null
-            },
-            "autoPlay": true,
-            "mute": false,
-            "allowTheatre": false,
-            "playPauseAnimation": true,
-            "playbackRateEnabled": true,
-            "allowDownload": false,
-            "playButtonShowing": true,
-            "fillToContainer": false,
-            "posterImage": ""
-        },
-        "vastOptions": {
-            "adList": [],
-            "adCTAText": false,
-            "adCTATextPosition": ""
-        }
-    });
-</script>
+
 <script>
 
     // function play1() {
