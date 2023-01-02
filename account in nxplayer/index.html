@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NXPRIME: Profile</title>
+</head>
+
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Josefin+Sans%3A300%2C400%2C500%2C600%2C700&amp;subset=latin%2Clatin-ext");
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Josefin Sans", sans-serif;
+
+    }
+
+    :root {
+        --text: #272727;
+        --ovewcolor: #ffffff;
+        --cantsel: #d3d3d3;
+        --cobump: #c8c8c88c;
+        --searchback: #2727271c;
+        --searchcolor: #000;
+        --btnnav: #fff;
+        --blackwh: #fff;
+        --bottomsvgcor: #3a3939;
+        --bottomsvgact: #000000;
+        --textman: #c1c1c1;
+        --inputcolor: #a9a9a94a;
+        --bordercolol: #c9c4c4;
+        --bodycolorbv: #fff;
+    }
+
+
+
+    .loginbox {
+        width: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7rem;
+        flex-direction: column;
+    }
+
+    .logoutbtnform {
+        display: none;
+        position: absolute;
+        right: 14px;
+        width: auto;
+        height: auto;
+        top: 57px;
+    }
+
+    .logoutbtnform button {
+        border: none;
+        background: transparent;
+        width: 23px;
+        height: 23px;
+        cursor: pointer;
+    }
+
+    .logoutbtnform button svg path {
+        fill: var(--text);
+    }
+
+    .profile {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 44px;
+        padding-bottom: 18px;
+    }
+
+    .profile img {
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .postnam p {
+        margin-left: 4px;
+        font-size: 17px;
+        color: #606060;
+        width: auto;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: auto;
+        max-width: 201px;
+    }
+
+    .loginform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 19px;
+    }
+
+    .loginform .titlelogin {
+        font-family: sans-serif;
+        font-size: 39px;
+        color: var(--textman);
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding-bottom: 54px;
+        font-weight: 800;
+        line-height: 1.5px;
+    }
+
+    .loginform input {
+        font-size: 21px;
+        line-height: 1.5;
+        color: var(--text);
+        display: block;
+        width: 100%;
+        background: var(--inputcolor);
+        height: 50px;
+        border-radius: 9px;
+        padding: 0 18px 0 46px;
+        outline: none;
+        border: 2px solid var(--bordercolol);
+    }
+
+    .loginform button {
+        font-size: 17px;
+        line-height: 1.5;
+        color: #fff;
+        border-radius: 6px;
+        background: #f40062;
+        padding: 9px 23px 6px;
+        border: none;
+        width: 22rem;
+        cursor: pointer;
+        margin-top: 6px;
+        font-weight: 900;
+        transition: 0.5s;
+    }
+
+    .forgotpass {
+        font-family: sans-serif;
+        font-size: 17px;
+        line-height: 2.5;
+        color: #999999;
+    }
+
+    .forgotpass a {
+        font-family: sans-serif;
+        font-size: 17px;
+        line-height: 2.5;
+        color: #666666;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .forgotpass a:hover {
+        color: #f40062;
+    }
+
+    .iconmain {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        padding-left: 12px;
+        pointer-events: none;
+    }
+
+    .iconmain svg {
+        fill: #666666;
+    }
+
+    .warpinput100 {
+        position: relative;
+        width: 22rem;
+        z-index: 1;
+        margin-bottom: 10px;
+    }
+
+    .showform {
+        display: block !important;
+    }
+
+    .commdel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .usernem {
+        color: var(--text);
+        font-size: 19px;
+        letter-spacing: 0.1px;
+        margin-bottom: 5px;
+    }
+
+    .emalid {
+        color: var(--textman);
+        font-weight: 700;
+        letter-spacing: 0.5px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        html {
+            color-scheme: dark;
+        }
+
+        body {
+            color: white;
+            background: #272727;
+        }
+
+        :root {
+            --text: #fff;
+            --ovewcolor: #2f2f2f;
+            --cantsel: #141313;
+            --cobump: #141313a1;
+            --searchback: #ffffff33;
+            --searchcolor: #fff;
+            --btnnav: #141313;
+            --bottomsvgcor: #ffffff8c;
+            --bottomsvgact: #ffffff;
+            --blackwh: #000;
+            --inputcolor: #0000004a;
+            --bordercolol: #303030;
+            --textman: #545454;
+            --bodycolorbv: #272727;
+        }
+    }
+</style>
+
+<body>
+    <div class="loginbox" id="forms">
+        <form class="loginform" action="/">
+            <p class="titlelogin">Login</p>
+            <div class="warpinput100">
+                <input type="text" name="username" id='username' placeholder="username" required />
+                <span class="iconmain">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                </span>
+            </div>
+            <div class="warpinput100">
+                <input type="email" name="gmail" id='gmail' placeholder="mail@website.com" required />
+                <span class="iconmain">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                </span>
+            </div>
+            <div class="warpinput100">
+                <input type="password" name="password" id='pass' placeholder="password" required />
+                <span class="iconmain">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" />
+                    </svg>
+                </span>
+            </div>
+            <button type="submit" onClick='loginlo()'>Login</button>
+            <p class="forgotpass">
+                Forgot <a href="#">Username / Password?</a>
+            </p>
+        </form>
+    </div>
+    <div id='showww' class="profile"></div>
+    <form action='/' id='logut' class="logoutbtnform">
+        <button class="logoutbtn" type='submit' onClick="logut()">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="23" height="23" x="0" y="0"
+                viewBox="0 0 512 512">
+                <g>
+                    <g>
+                        <path d="M255.15,468.625H63.787c-11.737,0-21.262-9.526-21.262-21.262V64.638c0-11.737,9.526-21.262,21.262-21.262H255.15
+			c11.758,0,21.262-9.504,21.262-21.262S266.908,0.85,255.15,0.85H63.787C28.619,0.85,0,29.47,0,64.638v382.724
+			c0,35.168,28.619,63.787,63.787,63.787H255.15c11.758,0,21.262-9.504,21.262-21.262
+			C276.412,478.129,266.908,468.625,255.15,468.625z" fill="#ffffff" data-original="#000000"></path>
+                    </g>
+                </g>
+                <g>
+                    <g>
+                        <path d="M505.664,240.861L376.388,113.286c-8.335-8.25-21.815-8.143-30.065,0.213s-8.165,21.815,0.213,30.065l92.385,91.173
+			H191.362c-11.758,0-21.262,9.504-21.262,21.262c0,11.758,9.504,21.263,21.262,21.263h247.559l-92.385,91.173
+			c-8.377,8.25-8.441,21.709-0.213,30.065c4.167,4.21,9.653,6.336,15.139,6.336c5.401,0,10.801-2.041,14.926-6.124l129.276-127.575
+			c4.04-3.997,6.336-9.441,6.336-15.139C512,250.302,509.725,244.88,505.664,240.861z" fill="#ffffff"
+                            data-original="#000000"></path>
+                    </g>
+                </g>
+            </svg>
+        </button>
+    </form>
+</body>
+<script>
+
+    var showw = document.getElementById("showww")
+    var form = document.getElementById("forms")
+    var loguot = document.getElementById("logut")
+    var valid_name = localStorage.getItem('username')
+    var valid_email = localStorage.getItem('email')
+    var valid_pass = localStorage.getItem('password')
+    function load() {
+        if (valid_name, valid_email, valid_pass === null) {
+            form.classList.add('showform')
+            loguot.classList.remove('showform')
+            return false
+        } else {
+            loguot.classList.add('showform')
+            form.classList.remove('showform')
+            showw.innerHTML = `<img src="https://codmark.github.io/slideimg.github.io/groom.png" alt="usericon" /><div class='commdel'><p class='usernem'>${valid_name}</p><p class='emalid'>${valid_email}</p></div>`
+        }
+    }
+    load()
+
+    function loginlo() {
+        var usern = document.getElementById("username")
+        var email = document.getElementById("gmail")
+        var Password = document.getElementById("pass")
+
+        localStorage.setItem('username', usern.value)
+        localStorage.setItem('email', email.value)
+        localStorage.setItem('password', Password.value)
+    }
+
+    function logut() {
+        localStorage.removeItem('username')
+        localStorage.removeItem('email')
+        localStorage.removeItem('password')
+    }
+</script>
+
+</html>
