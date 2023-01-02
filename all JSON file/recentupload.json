@@ -1,15 +1,6 @@
 [
     {
         "title": [
-            "Black Friday",
-            "black friday"
-        ],
-        "link": "",
-        "imgs": "https://m.media-amazon.com/images/M/MV5BY2IyYjI3NTItYjcyNC00ZjE2LTk1ZDMtMTc1YTI2MGIwMDQ2XkEyXkFqcGdeQXVyODY5NzkyMjA@._V1_SX300.jpg",
-        "rating": "4.6/10"
-    },
-    {
-        "title": [
             "avatar 2",
             "Avatar 2",
             "Avatar the way of water",
@@ -18,6 +9,15 @@
         "link": "",
         "imgs": "https://www.themoviedb.org/t/p/original/1hZTLWc0NKyGTbb2IyG0AFq60k7.jpg",
         "rating": "7.9/10"
+    },
+{
+        "title": [
+            "Black Friday",
+            "black friday"
+        ],
+        "link": "",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BY2IyYjI3NTItYjcyNC00ZjE2LTk1ZDMtMTc1YTI2MGIwMDQ2XkEyXkFqcGdeQXVyODY5NzkyMjA@._V1_SX300.jpg",
+        "rating": "4.6/10"
     },
     {
         "title": [
