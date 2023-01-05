@@ -78,7 +78,7 @@
             "avatar",
             "Avatar"
         ],
-        "link": "Avatar",
+        "link": "avatar",
         "imgs": "https://m.media-amazon.com/images/M/MV5BNjA3NGExZDktNDlhZC00NjYyLTgwNmUtZWUzMDYwMTZjZWUyXkEyXkFqcGdeQXVyMTU1MDM3NDk0._V1_SX300.jpg",
         "rating": "7.8/10"
     },
@@ -90,7 +90,7 @@
     },
     {
         "title": "All of us are dead",
-        "link": "semovie/Allofusaredead",
+        "link": "semovie/all of us are dead",
         "imgs": "https://www.pinkvilla.com/imageresize/all_of_us_are_dead_main_1.jpg?width=752&format=webp&t=pvorg",
         "rating": "7.5/10"
     },
