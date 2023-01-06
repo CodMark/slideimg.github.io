@@ -89,7 +89,10 @@
         "rating": "5.6/10"
     },
     {
-        "title": "All of us are dead",
+        "title": [
+            "All of us are dead",
+            "all of us are dead"
+        ],
         "link": "semovie/all of us are dead",
         "imgs": "https://www.pinkvilla.com/imageresize/all_of_us_are_dead_main_1.jpg?width=752&format=webp&t=pvorg",
         "rating": "7.5/10"
