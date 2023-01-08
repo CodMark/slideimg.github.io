@@ -122,8 +122,12 @@
         "rating": "6.7/10"
     },
     {
-        "title": "Spider-Man: No Way Home",
-        "link": "Spider-Man: No Way Home",
+        "title": [
+            "Spider-Man: No Way Home",
+            "spider man no way home",
+            "Spider man no way home"
+        ],
+        "link": "spider man no way home",
         "imgs": "https://allmovieshub.info/wp-content/uploads/2021/12/Spider-Man-No-Way-Home-Dual-Audio-download-480p-720p.jpg",
         "rating": "8.3/10"
     },
