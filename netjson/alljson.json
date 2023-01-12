@@ -1,6 +1,17 @@
 [
     {
         "title": [
+            "Everything Everywhere All at Once",
+            "everything everywhere all at once",
+            "Everything everywhere all at once 2023",
+            "everything everywhere all at once 2023"
+        ],
+        "link": "everything everywhere all at once",
+        "imgs": "https://vegamovies.page/wp-content/uploads/2023/01/Everything-Everywhere-All-at-Once.jpg",
+        "rating": "8.1/10"
+    },
+    {
+        "title": [
             "Troll",
             "troll",
             "troll 2022"
@@ -15,7 +26,7 @@
             "alice in borderland",
             "Alice in borderland"
         ],
-        "link": "",
+        "link": "semovie/alice in borderland",
         "imgs": "https://allmovieshub.quest/wp-content/uploads/2022/12/Alice-in-Borderland-season-1-multi-audio-download-480p-720p-1080p.jpg",
         "rating": "7.6/10"
     },
