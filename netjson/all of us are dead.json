@@ -18,6 +18,13 @@
         "link480p": "/allmovie/semovie/epfch/all of us are dead 480p",
         "link720p": "/allmovie/semovie/epfch/all of us are dead 720p",
         "link1080p": "/allmovie/semovie/epfch/all of us are dead 1080p",
-        "playlnik": ""
+        "playlnik": "",
+
+        "ids": "",
+        "link480p2":"",
+        "link720p2":"",
+        "link1080p2":"",
+        "downloadtitl2":"",
+        "relese2":""
     }
 ]
