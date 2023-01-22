@@ -15,7 +15,9 @@
         "link480p":"https://drive.google.com/uc?id=1V9yG5bTPHwaFLqn73fjfb74uLPmKQ6H2&confirm=t",
         "link720p":"https://drive.google.com/uc?id=1-DrIeJ9_BvMn-Ub7P_Tv8Xdp6WZsV3X9&confirm=t",
         "link1080p":"https://drive.google.com/uc?id=1-D30ZMtdrhe26KIt1afE3ZLa3gnFhWmK&confirm=t",
-        "playlnik": "https://drive.google.com/file/d/1-D30ZMtdrhe26KIt1afE3ZLa3gnFhWmK/view"
+        "playlnik480p": "1V9yG5bTPHwaFLqn73fjfb74uLPmKQ6H2",
+        "playlnik720p": "1-DrIeJ9_BvMn-Ub7P_Tv8Xdp6WZsV3X9",
+        "playlnik1080p": "1-D30ZMtdrhe26KIt1afE3ZLa3gnFhWmK"
     }
     
 ]

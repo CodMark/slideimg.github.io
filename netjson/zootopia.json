@@ -15,7 +15,9 @@
         "link480p":"https://drive.google.com/uc?id=14KSwn4zYsMNdtyUTXbirvC8suYrSpBoh&confirm=t",
         "link720p":"https://drive.google.com/uc?id=1GX5gJTs6cY41pCnJr8VwN411OMrcTN5L&confirm=t",
         "link1080p":"https://drive.google.com/uc?id=1iq26V2g2hS9L_2ArH3oPLa5T3EWcysUM&confirm=t",
-        "playlnik": "https://drive.google.com/file/d/14KSwn4zYsMNdtyUTXbirvC8suYrSpBoh/view"
+        "playlnik480p": "",
+        "playlnik720p": "",
+        "playlnik1080p": ""
     }
     
 ]

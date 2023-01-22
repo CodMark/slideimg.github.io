@@ -4,7 +4,7 @@
         "year": "2023",
         "langu": "Dual Audio [Hindi DD5.1 + English]",
         "size": "500MB || 850MB || 1.3GB",
-        "imgs": "https://vegamovies.page/wp-content/uploads/2023/01/Everything-Everywhere-All-at-Once.jpg",
+        "imgs": "https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg",
         "rating": "8.1/10",
         "downloadtitl": "Everything Everywhere All at Once Download Links",
         "story": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes connecting with the lives she could have led.",
@@ -15,7 +15,9 @@
         "link480p":"https://drive.google.com/uc?id=1secXbgC88482CQvkOEqBYJLAnOS9OuBc&confirm=t",
         "link720p":"https://drive.google.com/uc?id=1iOQLjqJnIuvtkqd_Kp40ZSmBrh8ZHWE8&confirm=t",
         "link1080p":"https://drive.google.com/uc?id=1MA_ZCREY9ih9CTfZA1J2PIXqBPvTYuVT&confirm=t",
-        "playlnik": "https://drive.google.com/file/d/1MA_ZCREY9ih9CTfZA1J2PIXqBPvTYuVT/view"
+        "playlnik480p": "",
+        "playlnik720p": "",
+        "playlnik1080p": ""
     }
     
 ]
