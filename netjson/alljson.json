@@ -1,6 +1,39 @@
 [
     {
         "title": [
+            "Pathaan",
+            "pathaan",
+            "Pathaan 2023",
+            "pathaan 2023"
+        ],
+        "link": "Pathaan",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BM2QzM2JiNTMtYjU4Ny00MDZkLTk3MmUtYTRjMzVkZGJlNmYyXkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg",
+        "rating": "7.0/10"
+    },
+    {
+        "title": [
+            "Jung_E",
+            "jung e",
+            "Jung e 2023",
+            "jung_E 2023"
+        ],
+        "link": "Jung_E",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BODQzZmE5NWUtODIyMi00MWVlLWJmMTYtNjAyN2ZjNGQ0ZmNkXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
+        "rating": "6.9/10"
+    },
+    {
+        "title": [
+            "Suicide Squad",
+            "suicide squad",
+            "Suicide squad 2016",
+            "Suicide Squad 2016"
+        ],
+        "link": "Suicide Squad",
+        "imgs": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/65425a1c-1d61-429b-bfa0-7dc046b30c9e/d9g1idc-71a493b1-b95c-4375-9e8b-7ee893811431.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY1NDI1YTFjLTFkNjEtNDI5Yi1iZmEwLTdkYzA0NmIzMGM5ZVwvZDlnMWlkYy03MWE0OTNiMS1iOTVjLTQzNzUtOWU4Yi03ZWU4OTM4MTE0MzEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Z-T8NPIIuW1aPwLl9BnHFOViuEEqas5iGsVFdXQTb0g",
+        "rating": "5.9/10"
+    },
+    {
+        "title": [
             "The Last of Us",
             "The-Last-of-Us",
             "The last of us 2023",
