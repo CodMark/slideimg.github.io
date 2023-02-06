@@ -1,5 +1,43 @@
 [
-{
+    {
+        "title": [
+            "Teen Wolf: The Movie",
+            "Teen wolf: the movie",
+            "teen wolf: the movie 2023",
+            "Teen wolf: the movie (2023)",
+            "Teen Wolf: The Movie 2023"
+        ],
+        "link": "Teen Wolf The Movie",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BYWYyZWU5NzctYjY4Zi00MzYyLTgxZTMtZjBmYWE2NGMwYTllXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+        "rating": "6.7/10"
+    },
+    {
+        "title": [
+            "Infiesto",
+            "infiesto",
+            "Infiesto 2023",
+            "Infiesto (2023)",
+            "ifiesto 2023"
+        ],
+        "link": "Infiesto",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BNWVjZDNlYWMtZjUwNi00YzcyLWE5M2QtZGZkYzA5ZWE1OGYwXkEyXkFqcGdeQXVyMTUzNzc3NDAz._V1_.jpg",
+        "rating": "5.7/10"
+    },
+    {
+        "title": [
+            "black panther 2",
+            "Black Panther 2",
+            "Black panther 2",
+            "Black Panther: Wakanda Forever",
+            "black panther: wakanda forever",
+            "Black Panther Wakanda Forever",
+            "black panther wakanda forever"
+        ],
+        "link": "black panther 2",
+        "imgs": "https://images.thedirect.com/media/photos/FeJ0BJtWIAUecOG.jpg",
+        "rating": "7.3/10"
+    },
+    {
         "title": [
             "Lockwood & Co",
             "Lockwood & co",
@@ -130,20 +168,6 @@
     },
     {
         "title": [
-            "black panther 2",
-            "Black Panther 2",
-            "Black panther 2",
-            "Black Panther: Wakanda Forever",
-            "black panther: wakanda forever",
-            "Black Panther Wakanda Forever",
-            "black panther wakanda forever"
-        ],
-        "link": "black panther 2",
-        "imgs": "https://images.thedirect.com/media/photos/FeJ0BJtWIAUecOG.jpg",
-        "rating": "7.3/10"
-    },
-    {
-        "title": [
             "Matchless Mulan",
             "Matchless Mulan (2020)",
             "matchless mulan"
@@ -229,14 +253,14 @@
         "rating": "6.3/10"
     },
     {
-        "title": "Ant-Man",
+        "title": ["Ant-Man","Ant Man", "ant man"],
         "link": "Ant-Man",
         "imgs": "https://allmovieshub.day/wp-content/uploads/2022/01/Ant-Man-movie-dual-audio-download-480p-720p-1080p.jpg",
         "rating": "7.3/10"
     },
     {
-        "title": "THE-BOYS",
-        "link": "THE-BOYS",
+        "title": ["THE-BOYS","the boys", "The boys"],
+        "link": "semovie/THE-BOYS",
         "imgs": "https://allmovieshub.day/wp-content/uploads/2022/07/The_Boys_Season_3_in_Hindi_Dubbed_Download_480p_720p_1080p.jpeg",
         "rating": "8.7/10"
     },
