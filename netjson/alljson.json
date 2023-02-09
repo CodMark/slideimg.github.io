@@ -1,6 +1,20 @@
 [
     {
         "title": [
+            "Halo",
+            "halo",
+            "Halo 2022",
+            "halo 2022",
+            "Halo Season: 1",
+            "Halo season: 1",
+            "halo season: 1"
+        ],
+        "link": "semovie/Halo",
+        "imgs": "https://movies4u.cyou/wp-content/uploads/2022/05/Halo-2022-Season-1-poster.jpg",
+        "rating": "7.1/10"
+    },
+    {
+        "title": [
             "Teen Wolf: The Movie",
             "Teen wolf: the movie",
             "teen wolf: the movie 2023",
@@ -113,7 +127,7 @@
             "The last of us 2023",
             "The Last of Us 2023"
         ],
-        "link": "The Last of Us",
+        "link": "semovie/The Last of Us",
         "imgs": "https://www.allmovieshub.day/wp-content/uploads/2023/01/The-Last-of-Us-season-1-english-audio-download-series-720p.jpg",
         "rating": "9.5/10"
     },
