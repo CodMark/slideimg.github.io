@@ -1,6 +1,32 @@
 [
     {
         "title": [
+            "Lookism",
+            "lookism",
+            "Lookism 2022",
+            "lookism 2022",
+            "Lookism in hindi",
+            "lookism in hindi"
+        ],
+        "link": "semovie/Lookism",
+        "imgs": "https://i.ibb.co/HVTbD0B/Ff43oz-RXw-AE-URH.jpg",
+        "rating": "7.6/10"
+    },
+    {
+        "title": [
+            "Star Trek: Picard",
+            "Star Trek: Picard",
+            "Star Trek: Picard 2023",
+            "Star Trek: Picard 2023",
+            "Star Trek: Picard",
+            "Star Trek: Picard"
+        ],
+        "link": "semovie/Star Trek Picard",
+        "imgs": "https://i.ibb.co/dcYwshK/p16092465-i-v13-aa.jpg",
+        "rating": "7.3/10"
+    },
+    {
+        "title": [
             "Ant-Man and the Wasp: Quantumania",
             "Ant-man and the Wasp Quantumania",
             "Ant-Man and the wasp quantumania 2023",
@@ -40,7 +66,7 @@
             "halo season: 1"
         ],
         "link": "semovie/Halo",
-        "imgs": "https://movies4u.cyou/wp-content/uploads/2022/05/Halo-2022-Season-1-poster.jpg",
+        "imgs": "https://i.ibb.co/Wnv9Phg/Halo-2022-Season-1-poster.jpg",
         "rating": "7.1/10"
     },
     {
