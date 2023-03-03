@@ -4,12 +4,17 @@
         "title": "Star Trek: Picard 2023",
         "season": "Season 3",
         "qulit": "Download 480p",
-        "link": "https://nxprime.blogspot.com/2023/02/netflix-star-trek-picard-2020-23-season.html#StarTrekPicards1e1480p",
+        "link": "https://nxprime.blogspot.com/2023/02/netflix-star-trek-picard-2020-23-season.html#StarTrekPicards3e1480p",
         "eps": "1"
     },
     {
-        "link": "https://nxprime.blogspot.com/2023/02/netflix-star-trek-picard-2020-23-season.html#StarTrekPicards1e2480p",
+        "link": "https://nxprime.blogspot.com/2023/02/netflix-star-trek-picard-2020-23-season.html#StarTrekPicards3e2480p",
         "centerrdf": "disnun",
         "eps": "2"
+    },
+    {
+        "link": "https://nxprime.blogspot.com/2023/02/netflix-star-trek-picard-2020-23-season.html#StarTrekPicards3e3480p",
+        "centerrdf": "disnun",
+        "eps": "3"
     }
 ]
