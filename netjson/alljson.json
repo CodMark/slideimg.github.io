@@ -1,6 +1,61 @@
 [
     {
         "title": [
+            "Tu Jhoothi Main Makkaar",
+            "Tu jhoothi main makkaar",
+            "tu jhoothi main makkaar 2023",
+            "Tu jhoothi nain Makkaar 2023",
+            "Tu Jhoothi Main Makkaar (2023)",
+            "Tu jhoothi main makkaar (2023)",
+            "Tu jhoothi Main Makkaar (2023)"
+        ],
+        "link": "Tu jhoothi main makkaar",
+        "imgs": "https://i.ibb.co/N3WbDzh/img-5108.webp",
+        "rating": "6.7/10"
+    },
+    {
+        "title": [
+            "Carnival Row",
+            "Carnival row",
+            "Carnival Row 2023",
+            "Carnival row 2023",
+            "Carnival Row (2023)",
+            "Carnival row (2023)",
+            "carnival Row (2023)"
+        ],
+        "link": "semovie/Carnival Row",
+        "imgs": "https://i.ibb.co/hV9CrDR/MV5-BZGY4-ZDFi-YWYt-Yz-Mw-ZS00-Zm-Vl-LWEw-OGEt-M2-I1-Zjcx-NTFj-MTRi-Xk-Ey-Xk-Fqc-Gde-QXVy-Mjkw-OTAy.jpg",
+        "rating": "7.8/10"
+    },
+    {
+        "title": [
+            "Black summer",
+            "Black Summer",
+            "black summer",
+            "black Summer",
+            "black summer (2021)",
+            "Black summer (2021)",
+            "Black Summer (2021)"
+        ],
+        "link": "semovie/black summer",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BOWZhOWM2ODUtNmIxZS00YWZkLWE1MzItNjMxOWExY2QxOGQ4XkEyXkFqcGdeQXVyMTA1OTAyOTI@._V1_SX300.jpg",
+        "rating": "6.5/10"
+    },
+    {
+        "title": [
+            "Khuda Haafiz 2",
+            "khuda haafiz 2",
+            "Khuda haafiz 2 (2022)",
+            "khuda haafiz 2 (2022)",
+            "Khuda haafiz 2 2022",
+            "khuda haafiz 2 2022"
+        ],
+        "link": "khuda haafiz 2",
+        "imgs": "https://allmovieshub.day/wp-content/uploads/2022/09/Khuda-Haafiz-Chapter-2-hindi-audio-download-480p-720p-1080p.jpg",
+        "rating": "8.4/10"
+    },
+    {
+        "title": [
             "Fall",
             "fall",
             "Fall (2022)",
