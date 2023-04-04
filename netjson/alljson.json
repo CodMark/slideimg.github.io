@@ -1,6 +1,61 @@
 [
     {
         "title": [
+            "Zombieland",
+            "zombieland",
+            "Zombieland (2009)",
+            "zombieland (2009)",
+            "Zombieland 2009",
+            "zombieland 2009"
+        ],
+        "link": "Zombieland",
+        "imgs": "https://images.kinorium.com/movie/poster/435075/w1500_37535793.jpg",
+        "rating": "7.6/10"
+    },
+    {
+        "title": [
+            "Resident Evil: The Final Chapter",
+            "Resident evil the final dhapter",
+            "resident evil the final dhapter",
+            "Resident evil the final dhapter (2016)",
+            "resident evil the final dhapter (2016)",
+            "Resident evil the final dhapter 2016",
+            "resident evil the final dhapter 2016"
+        ],
+        "link": "Resident evil the final dhapter",
+        "imgs": "https://images.kinorium.com/movie/poster/681198/w1500_50609930.jpg",
+        "rating": "5.5/10"
+    },
+    {
+        "title": [
+            "World War Z",
+            "World war z",
+            "world war z",
+            "World war z (2021)",
+            "world war z (2021)",
+            "World war z 2021",
+            "world war z 2021"
+        ],
+        "link": "World War Z",
+        "imgs": "https://i.ibb.co/gzp3VYv/MV5-BNDQ4-Yz-Fm-Nzkt-Mm-M5-ZC00-MDZj-LTk1-OTkt-NDE2-ODE4-Yj-M2-Mj-Jj-Xk-Ey-Xk-Fqc-Gde-QXVy-NTA4-Nz-Y.jpg",
+        "rating": "7.0/10"
+    },
+    {
+        "title": [
+            "Army of the Dead",
+            "Army of the dead",
+            "army of the dead",
+            "Army of the dead (2021)",
+            "army of the dead (2021)",
+            "Army of the dead 2021",
+            "army of the dead 2021"
+        ],
+        "link": "Army of the Dead",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BNGY0NzgzYzctYWQwMC00MzM2LThjNGMtZjFjMWUyNzg0ZmM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
+        "rating": "5.7/10"
+    },
+    {
+        "title": [
             "Train to Busan",
             "Train to busan",
             "train to busan",
