@@ -1,4 +1,31 @@
 [
+{
+        "title": [
+            "Babylon",
+            "babylon",
+            "Babylon (2022)",
+            "babylon (2022)",
+            "Babylon 2022",
+            "babylon 2022"
+        ],
+        "link": "Babylon",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BZmM4MWIwMGItYzA3ZC00MDY4LTlhNWQtY2MwOTViODk1M2U1XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "rating": "7.6/10"
+    },
+    {
+        "title": [
+            "The Red Ghost",
+            "The red ghost",
+            "the red ghost",
+            "The red ghost (2020)",
+            "the red ghost (2020)",
+            "The red ghost 2020",
+            "the red ghost 2020"
+        ],
+        "link": "The red ghost",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BNDJjZGVmN2UtMGJkYi00YTU4LThhZTgtOWNkYWI0NmU3MjM1XkEyXkFqcGdeQXVyMjI4MjA3NDY@._V1_FMjpg_UX1000_.jpg",
+        "rating": "6.1/10"
+    },
     {
         "title": [
             "Zombieland",
