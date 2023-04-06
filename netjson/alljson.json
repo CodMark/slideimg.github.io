@@ -1,5 +1,33 @@
 [
-{
+    {
+        "title": [
+            "Darling in the Franxx",
+            "Darling in the franxx",
+            "darling in the franxx",
+            "Darling in the franxx (2022)",
+            "darling in the franxx (2022)",
+            "Darling in the franxx 2022",
+            "darling in the franxx 2022"
+        ],
+        "link": "Darling in the franxx",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BZGVlY2ZhM2ItMWIwZC00YjU0LWJjNjAtZGVlNWJkM2JmZjhmXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg",
+        "rating": "7.4/10"
+    },
+    {
+        "title": [
+            "Accident Man: Hitman’s Holiday",
+            "accident man hitmans holiday",
+            "Accident man hitmans holiday",
+            "accident man hitmans holiday (2022)",
+            "Accident man hitmans holiday (2022)",
+            "accident man hitmans holiday 2022",
+            "Accident man hitmans holiday 2022"
+        ],
+        "link": "Accident Man Hitmans Holiday",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BMTU5MWY3YTEtYmYwNC00MGU1LTk2YWMtOTk0YjgxNDM3NjdjXkEyXkFqcGdeQXVyMjE4NzUxNDA@._V1_FMjpg_UX1000_.jpg",
+        "rating": "5.9/10"
+    },
+    {
         "title": [
             "Babylon",
             "babylon",
@@ -122,7 +150,7 @@
         "imgs": "https://m.media-amazon.com/images/M/MV5BM2ZmMjEyZmYtOGM4YS00YTNhLWE3ZDMtNzQxM2RhNjBlODIyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
         "rating": "8.4/10"
     },
-     {
+    {
         "title": [
             "Your name",
             "your name",
@@ -211,7 +239,6 @@
             "The Day After Tomorrow",
             "The Day After Tomorrow",
             "The Day After Tomorrow"
-
         ],
         "link": "The Day After Tomorrow",
         "imgs": "https://i.ibb.co/gvt9RXf/MV5-BNWNk-Nzlj-Zjkt-Y2-Mw-Ni00-OWEx-LTli-NTMt-OTk0-NGU2-ZDQ3-ZTEy-Xk-Ey-Xk-Fqc-Gde-QXVy-Mj-Uz-OTY1-N.jpg",
@@ -228,7 +255,6 @@
             "my dress-Up Darling season 1 hindi all episodes download hd",
             "My dress up darling Season 1 Hindi All Episodes Download Hd",
             "my dress-Up Darling season 1 hindi all episodes download hd"
-
         ],
         "link": "semovie/My Dress-Up Darling Season 1 Hindi All Episodes Download HD",
         "imgs": "https://i.ibb.co/0tGdbnZ/my-dress-up-darling-01.jpg",
@@ -245,7 +271,6 @@
             "Naruto season 1 hindi all episodes download hd",
             "Naruto Season 1 Hindi All Episodes Download Hd",
             "Naruto season 1 hindi all episodes download hd"
-
         ],
         "link": "semovie/Naruto Season 1 Hindi All Episodes Download HD",
         "imgs": "https://i.ibb.co/fvtBDt6/p9161972-b-v8-aa.jpg",
@@ -262,7 +287,6 @@
             "Miss kuroitsu from the monster development department",
             "miss kuroitsu from the monster development department",
             "Miss kuroitsu from the monster development department download in hindi"
-
         ],
         "link": "semovie/Miss Kuroitsu from the Monster Development Department",
         "imgs": "https://i.ibb.co/K5L2PRS/db9fa5f7c2c0204d12ba8b48c3ff66a0.jpg",
@@ -279,7 +303,6 @@
             "The Magicians Elephant",
             "The magicians elephant",
             "the magicians elephant download in hindi"
-
         ],
         "link": "the magicians elephant",
         "imgs": "https://i.ibb.co/C9H3YbL/MV5-BOGNk-NWY3-Nm-Mt-MDQ3-NS00-NWUz-LWEx-YTMt-Mz-Fm-ZDg1-ZWNi-MTg0-Xk-Ey-Xk-Fqc-Gde-QXVy-MTA1-OTcy-N.jpg",
@@ -584,7 +607,7 @@
         "imgs": "https://i.ibb.co/dcYwshK/p16092465-i-v13-aa.jpg",
         "rating": "7.3/10"
     },
-{
+    {
         "title": [
             "Fantastic Beasts 3: The Secrets of Dumbledore",
             "Fantastic beasts 3: the secrets of dumbledore",
@@ -937,13 +960,21 @@
         "rating": "6.3/10"
     },
     {
-        "title": ["Ant-Man","Ant Man", "ant man"],
+        "title": [
+            "Ant-Man",
+            "Ant Man",
+            "ant man"
+        ],
         "link": "Ant-Man",
         "imgs": "https://allmovieshub.day/wp-content/uploads/2022/01/Ant-Man-movie-dual-audio-download-480p-720p-1080p.jpg",
         "rating": "7.3/10"
     },
     {
-        "title": ["THE-BOYS","the boys", "The boys"],
+        "title": [
+            "THE-BOYS",
+            "the boys",
+            "The boys"
+        ],
         "link": "semovie/THE-BOYS",
         "imgs": "https://allmovieshub.day/wp-content/uploads/2022/07/The_Boys_Season_3_in_Hindi_Dubbed_Download_480p_720p_1080p.jpeg",
         "rating": "8.7/10"
