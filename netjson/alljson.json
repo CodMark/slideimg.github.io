@@ -262,6 +262,8 @@
     {
         "title": [
             "The Mandalorian",
+            "Star Wars: The Mandalorian",
+            "star wars: the mandalorian",
             "the mandalorian",
             "The mandalorian",
             "the mandalorian 2019",
@@ -1251,7 +1253,7 @@
             "all of us are dead"
         ],
         "link": "semovie/all of us are dead",
-        "imgs": "https://www.pinkvilla.com/imageresize/all_of_us_are_dead_main_1.jpg?width=752&format=webp&t=pvorg",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BOTY1ZGM2YzQtMTBjZC00NjE2LWJlNzUtYjA0YjYxNzBjMmRjXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
         "rating": "7.5/10"
     },
     {
@@ -1339,5 +1341,16 @@
         "link": "Shang-Chi and the Legend of the Ten Rings",
         "imgs": "https://allmovieshub.art/wp-content/uploads/2021/11/Shang-Chi-and-The-Legend-Of-The-Ten-Rings-movie-dual-audio-download-480p-720p-1080p.jpg",
         "rating": "7.4/10"
+    },
+    {
+        "title": [
+            "She-Hulk: Attorney at Law",
+            "she-hulk: attorney at law",
+            "she hulk",
+            "She Hulk"
+        ],
+        "link": "semovie/Download she hulk season 1 all episode in hindi 480p 720p 1080p",
+        "imgs": "https://m.media-amazon.com/images/M/MV5BMjU4MTkxNzktNzUyYy00NDM2LWE5NGQtNjJlN2Q0N2MxZDAxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "rating": "5.3/10"
     }
 ]
