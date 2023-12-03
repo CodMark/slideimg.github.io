@@ -4,7 +4,7 @@ body{
 .box {
         position: fixed;
         bottom: 18px;
-        right: 12px;
+        right: 0.75rem;
         width: 19rem;
         height: 17.2rem;
         border-radius: 9px;
