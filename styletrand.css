@@ -1,0 +1,95 @@
+.box {
+        position: fixed;
+        bottom: 18px;
+        right: 12px;
+        width: 19rem;
+        height: 17.2rem;
+        border-radius: 9px;
+        background-color: var(--box);
+        padding: 12px;
+        z-index: 1111111;
+    }
+
+    .loding_bar {
+        width: 100%;
+        height: 9px;
+        background-color: #f80757;
+        position: relative;
+        top: 11px;
+        border-radius: 9px;
+        overflow: hidden;
+    }
+
+    .box .top_text_title {
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
+    .post_box {
+        width: 100%;
+        height: 100%;
+    }
+
+    .post_box a img {
+        width: 280px;
+        border-radius: 9px;
+    }
+
+    .post_box a p {
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    .box span {
+        position: absolute;
+        top: 1px;
+        right: 10px;
+        color: #f80757;
+        font-size: 38px;
+        cursor: pointer;
+        transform: rotate(45deg);
+    }
+
+    .box_tranding {
+        width: 280px;
+        height: auto;
+        overflow: clip;
+        position: relative;
+        top: 23px;
+    }
+    .mov_box{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        position: relative;
+        animation: right 22s ease-out infinite;
+    }
+
+    @keyframes right {
+        0%,
+        20% {
+            left: 0px;
+        }
+
+        25%,
+        45% {
+            left: -295px;
+        }
+
+        50%,
+        70% {
+            left: -590px;
+        }
+
+        75%,
+        95% {
+            left: -885px;
+        }
+
+        100% {
+            left: -1180px;
+        }
+    }
