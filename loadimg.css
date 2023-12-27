@@ -109,3 +109,9 @@
     height: auto !important;
   }
 }
+ @media (max-width:379px) {
+   .box_project .blurred-img {
+      width: 100% !important;
+      height: 163px !important;
+    }
+}
