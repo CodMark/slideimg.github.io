@@ -228,7 +228,7 @@ main .project_area {
   text-align: center;
   flex-direction: column;
 }
-main .project_area h4 {
+main .project_area .h4s {
   margin-bottom: 20px;
   margin-top: 8px;
 }
