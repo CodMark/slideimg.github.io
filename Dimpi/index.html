@@ -17,6 +17,11 @@
     <link rel="shortcut icon" href="images/balloon1.png" type="image/x-icon">
 
 </head>
+<style>
+    .typed-cursor {
+        display: none;
+    }
+</style>
 
 <body>
     <canvas id="confetti"></canvas>
@@ -121,16 +126,16 @@
         <div class="smiley__icon">
             <img src="images/smiley_icon.png" alt="" width="100">
         </div>
-
-
         <div class="boxMail">
             <i class="fa-solid fa-xmark"></i>
             <div class="boxMail-container">
                 <div class="typewriter">
                     <h1>The cat and the hat.</h1>
+                    <br>
                     <div class="row">
-                        <img src="https://media.tenor.com/cyoVM_hhBp0AAAAi/peach-and-goma.gif" alt="img">
-                        <p>My love. You are a very special girl. I always silently thank you for coming into my life. Today, I wish you all the best, lots of health, and lots of joy. I always hope we will celebrate many more birthdays like this together. Happy birthday to you.💕</p>
+                        <img src="https://media.tenor.com/cyoVM_hhBp0AAAAi/peach-and-goma.gif" alt="img" id="img_dd">
+                        <p id="typed-text"></p>
+                        <button class="didn" id="btnnext">Next Surprise ▶</button>
                     </div>
                 </div>
             </div>
@@ -138,6 +143,7 @@
     </div>
 
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 <script>
     let datetxt = "08 May";
     let datatxtletter = "My love. You are a very special girl. I always silently thank you for coming into my life. Today, I wish you all the best, lots of health, and lots of joy. I always hope we will celebrate many more birthdays like this together. Happy birthday to you.💕";
@@ -172,6 +178,7 @@
         $(".box__letter").slideDown()
         setTimeout(function () {
             $(".letter__border").slideDown();
+            typed_t()
         }, 1000)
         setTimeout(function () {
             intervalTitle = setInterval(function () {
@@ -224,9 +231,9 @@
         $(".box__letter").slideUp();
         $(".letter__border").slideUp();
     })
-
-
-
+    
+    
+    
     let mailBox = document.querySelector('.mail')
     let boxmail = document.querySelector('.boxMail')
     var close = document.querySelector('.fa-xmark')
@@ -234,22 +241,23 @@
         mailBox.classList.toggle('active')
         boxmail.classList.add('active')
     }
-
+    
     close.addEventListener('click', function () {
         boxmail.classList.remove('active')
+        document.getElementById('typed-text').innerHTML= "";
     })
-
+    
     // 🎉 CONFETTI EFFECT
     const canvas = document.getElementById("confetti");
     const ctx = canvas.getContext("2d");
-
+    
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
-
+    
     let confetti = [];
-
+    
     const colors = ["#ff0", "#ff4081", "#00e5ff", "#76ff03", "#ff9100", "#ff1744"];
-
+    
     function createConfetti() {
         for (let i = 0; i < 120; i++) {
             confetti.push({
@@ -268,46 +276,71 @@
 
     function drawConfetti() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-
+        
         confetti.forEach(c => {
             ctx.save();
             ctx.translate(c.x, c.y);
             ctx.rotate(c.angle * Math.PI / 180);
-
+            
             ctx.fillStyle = c.color;
             ctx.fillRect(-c.w / 2, -c.h / 2, c.w, c.h);
-
+            
             ctx.restore();
         });
-
+        
         moveConfetti();
     }
-
+    
     function moveConfetti() {
         confetti.forEach(c => {
             c.y += c.speedY;
             c.x += c.speedX;
             c.angle += c.rotation;
-
+            
             if (c.y > canvas.height) {
                 c.y = 0;
                 c.x = Math.random() * canvas.width;
             }
         });
     }
-
+    
     function animateConfetti() {
         drawConfetti();
         requestAnimationFrame(animateConfetti);
     }
-
+    
     createConfetti();
     animateConfetti();
-
+    
     window.addEventListener("resize", () => {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
     });
+    $("#btnnext").on("click", function () {
+        typed_2()
+    });
+    
+    function typed_t() {
+        const letterContent = "My love. You are a very special girl. I always silently thank you for coming into my life.Today, I wish you all the best, lots of health, and lots of joy. I always hope we willcelebrate many more birthdays like this together. Happy birthday to you.💕";
+        new Typed('#typed-text', {
+            strings: [letterContent],
+            typeSpeed: 30,
+            showCursor: true,
+            cursorChar: '|',
+            onComplete: function () {
+                setTimeout(() => {
+                    document.querySelector('.surprise-button').classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
+                }, 1000);
+            }
+        });
+        document.getElementById('btnnext').classList.remove('didn');
+    }
+    function typed_2() {
+        const letterContent = "ksdfjdjfsjdf oj sdkjfkdsf usd hfhsdfkjdsf sdjhf dsf dsfj";
+        document.getElementById('img_dd').src= "https://media.tenor.com/MapB0PgXvaMAAAAi/mochi-cat-smooch.gif"
+        document.getElementById('typed-text').innerHTML= letterContent;
+        document.getElementById('btnnext').classList.add('didn');
+    }
 </script>
 
 </html>

@@ -37,7 +37,6 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
     /* behind content */
     pointer-events: none;
     /* clicks pass through */
@@ -47,6 +46,7 @@ body {
 .typewriter {
     text-align: center;
     width: fit-content;
+    height: fit-content;
 }
 
 .typewriter h1 {
@@ -77,8 +77,9 @@ body {
     gap: 12px;
     width: 100%;
     height: 100%;
-    justify-content: center;
     align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .typewriter .row img {
@@ -86,6 +87,19 @@ body {
     height: fit-content;
 }
 
+.typewriter .row button {
+    border: 2px solid black;
+    background: var(--color-heart);
+    padding: 12px;
+    border-radius: 24px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.didn{
+    display: none !important;
+}
 
 #wrapper {
     position: relative;
@@ -975,11 +989,6 @@ body {
 }
 
 
-
-
-
-
-
 .boxMail {
     position: fixed;
     background: rgb(0, 0, 0, 0.8);
@@ -1006,7 +1015,7 @@ body {
     position: absolute;
     width: 100%;
     max-width: 30rem;
-    max-height: 23rem;
+    max-height: fit-content;
     height: 100%;
     display: flex;
     margin: 0;
